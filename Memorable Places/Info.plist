@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Required to add locations in favorites table</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Required to add locations in favorites table</string>
 </dict>
 </plist>

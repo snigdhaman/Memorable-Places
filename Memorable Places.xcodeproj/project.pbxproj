@@ -12,6 +12,8 @@
 		8B1AA8C01C383F3E001E1364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AA8BE1C383F3E001E1364 /* Main.storyboard */; };
 		8B1AA8C21C383F3E001E1364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AA8C11C383F3E001E1364 /* Assets.xcassets */; };
 		8B1AA8C51C383F3E001E1364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AA8C31C383F3E001E1364 /* LaunchScreen.storyboard */; };
+		8B1AA8CD1C384405001E1364 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AA8CC1C384405001E1364 /* TableViewController.swift */; };
+		8B1AA8CF1C3845DA001E1364 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1AA8CE1C3845DA001E1364 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8B1AA8C11C383F3E001E1364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1AA8C41C383F3E001E1364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1AA8C61C383F3E001E1364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1AA8CC1C384405001E1364 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8B1AA8CE1C3845DA001E1364 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1AA8CF1C3845DA001E1364 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		8B1AA8AE1C383F3E001E1364 = {
 			isa = PBXGroup;
 			children = (
+				8B1AA8CE1C3845DA001E1364 /* CoreLocation.framework */,
 				8B1AA8B91C383F3E001E1364 /* Memorable Places */,
 				8B1AA8B81C383F3E001E1364 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				8B1AA8BA1C383F3E001E1364 /* AppDelegate.swift */,
 				8B1AA8BC1C383F3E001E1364 /* ViewController.swift */,
 				8B1AA8BE1C383F3E001E1364 /* Main.storyboard */,
+				8B1AA8CC1C384405001E1364 /* TableViewController.swift */,
 				8B1AA8C11C383F3E001E1364 /* Assets.xcassets */,
 				8B1AA8C31C383F3E001E1364 /* LaunchScreen.storyboard */,
 				8B1AA8C61C383F3E001E1364 /* Info.plist */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1AA8BD1C383F3E001E1364 /* ViewController.swift in Sources */,
+				8B1AA8CD1C384405001E1364 /* TableViewController.swift in Sources */,
 				8B1AA8BB1C383F3E001E1364 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
